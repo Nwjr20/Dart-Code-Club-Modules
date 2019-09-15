@@ -1,0 +1,27 @@
+==================Dart Resources and Guides=====================
+Guidelines for adding Resources to the resourceList.
+Please follow the below example of a adding a resource to the file
+
+title/ description here
+->  write url or link here after five spaces
+
+please ensure an empty line between each resource.
+
+===============================================================
+
+Online IDE for Dart
+->  https://dartpad.dartlang.org
+    
+===================GUIDES & Websites=================
+
+Google's Codelab for Dart Guides
+->  https://dart.dev/codelab
+
+Guide to Dart Documentation and writing comments
+->  https://dart.dev/guides/language/effective-dart
+
+=====================Videos=========================
+
+
+
+
