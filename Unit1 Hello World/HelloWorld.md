@@ -59,7 +59,7 @@ print("Hello World!")
 & Java
 ```Java
 public class ClassName{
-  public static void Main(){
+  public static void main(){
   System.out.println("Hello World");
   }
 }
