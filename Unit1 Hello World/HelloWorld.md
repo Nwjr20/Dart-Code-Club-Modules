@@ -1,10 +1,11 @@
 # Module 1 - Hello, World!
 
-**1. Navigate to https://dartpad.dartlang.org/**
+**Navigate to https://dartpad.dartlang.org/**
   Familiarize yourself with this screen. The left side of the site is the code Editor, and the right side is the Console output. 
   When you hit the `Run` button, the code in the Editor will execute and its output will be displayed to the Console.
   
- **2. Clearing the `main()` function**
+ **Clearing the `main()` function**
+ 
    Clear all the code from the word `for` to the first closed curly bracket `}`. 
    The remaining code should look like this:
     
@@ -22,7 +23,8 @@
     
     If you hit `Run` now, the display in the Console should be blank.
     
- **3. Hello, World! **
+ **Hello, World!**
+   
    Inside the curly brackets of the `main()` function, place the following line of code:
    
    `print("Hello, World!");`
