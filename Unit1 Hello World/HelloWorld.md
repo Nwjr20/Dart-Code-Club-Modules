@@ -5,11 +5,14 @@
   When you hit the `Run` button, the code in the Editor will execute and its output will be displayed to the Console.
   
  **2. Clearing the `main()` function**
-   Clear all the code from the word 'for' to the first closed curly bracket '}'. 
+   Clear all the code from the word `for` to the first closed curly bracket `}`. 
    The remaining code should look like this:
-    ```void main() {
     
-    } ```
+   ```dart
+    void main() {
+    
+    }
+  ```
     
     The block of code surrounded by `void main() { }` is known as the `main()` function. 
     Don't worry about the definition of function just yet - you will learn about it later.
@@ -21,9 +24,12 @@
     
  **3. Hello, World! **
    Inside the curly brackets of the `main()` function, place the following line of code:
+   
    `print("Hello, World!");`
+   
    The entire Editor should now look like this:
-   ```
+   
+   ```dart
    void main() {
     print("Hello, World!");
    }```
