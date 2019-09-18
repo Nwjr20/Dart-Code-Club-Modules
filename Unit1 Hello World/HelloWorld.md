@@ -47,3 +47,22 @@
    If you hit `Run`, the String `"Hello World"` will display in the Console.
    
    Try displaying other messages to the Console - Test out the limitations of what you can place inside `print()`
+   
+   **Similiarities to Other Languages(Python and Java)**
+Syntax wise Dart is almost a best-of-both-worlds of Java and Python. Like in python, the print method is simply `print()`.But like Java, Dart looks for the main method before executing it and requires the use of brackets and ";".
+```Python
+print("Hello World!")
+```
+```Java
+public Class classname{
+  public static void main(){
+  System.out.println("Hello World");
+  }
+}
+```
+Versus
+``` dart
+void main(){
+  print("Hello World");
+}
+```
