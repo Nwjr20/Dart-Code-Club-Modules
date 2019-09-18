@@ -52,11 +52,12 @@
   
   Syntax wise Dart is almost a best-of-both-worlds of Java and Python. Like in python, the print method is simply `print()`.
   But like Java, Dart looks for the main method before executing it and requires the use of brackets and ";".
-**Python**
+
+**Python:**
 ```Python
 print("Hello World!")
 ```
-& **Java**
+**Java:**
 ```Java
 public class ClassName{
   public static void main(){
@@ -64,7 +65,7 @@ public class ClassName{
   }
 }
 ```
-**Dart**
+**Dart:**
 ``` dart
 void main(){
   print("Hello World");
