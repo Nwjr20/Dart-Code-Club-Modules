@@ -58,8 +58,8 @@ print("Hello World!")
 ```
 & Java
 ```Java
-public Class classname{
-  public static void main(){
+public class ClassName{
+  public static void Main(){
   System.out.println("Hello World");
   }
 }
