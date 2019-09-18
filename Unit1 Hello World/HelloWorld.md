@@ -1,6 +1,7 @@
 # Module 1 - Hello, World!
 
 **Navigate to https://dartpad.dartlang.org/**
+  
   Familiarize yourself with this screen. The left side of the site is the code Editor, and the right side is the Console output. 
   When you hit the `Run` button, the code in the Editor will execute and its output will be displayed to the Console.
   
