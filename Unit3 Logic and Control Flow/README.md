@@ -14,12 +14,12 @@ We can use special operators to compare two values and receive a bool value in t
 Logic is the comparison of two values to see how they relate (whether or not one is bigger, smaller, the same, etc).
 Here's a list of the main comparison operators. You've seen many of these in math class before.
 
-1. Greater than `>` (ex. `A > B`)
-2. Less than `<` (ex. `A < B`)
-3. Greater than or equal to `>=` (ex. `A >= B`)
-4. Less than or equal to `<=` (ex. `A <= B`)
-5. Equal to `==` (ex. `A == B`)
-6. Not equal to `!=` (ex. `A != B`)
+1. `>` - Greater than (ex. `A > B`)
+2. `<` - Less than (ex. `A < B`)
+3. `>=` - Greater than or equal to (ex. `A >= B`)
+4. `<=` - Less than or equal to (ex. `A <= B`)
+5. `==` - Equal to (ex. `A == B`)
+6. `!=` - Not equal to (ex. `A != B`)
 
 A few things to remember about logic operators.
   - For any operator with equal to as part of it, the equals sign comes SECOND.
@@ -100,7 +100,10 @@ The console should say `false`. b is equal to c, but a is not greater than b. On
   
 Try replacing `&&` with `||`. What should the result be?
 
-Answer: The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.
+<detail>
+  <summary>Answer: </summary> 
+  The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.
+</detail>
 
 Now, what is the result if you put `!` before the `(b == c)`?
 Your Editor should read:
