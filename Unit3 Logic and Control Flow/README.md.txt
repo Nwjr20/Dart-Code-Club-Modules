@@ -112,6 +112,8 @@ Now that you've learned about booleans, here comes the fun part!
 
 You may have been wondering why we would use booleans in the first place. The answer lies within the `if` statement.
 
+**if**
+
 The `if` statement uses a boolean to check whether or not it should perform an action.
 
 Let's just try it out.
@@ -137,4 +139,45 @@ Insert a line that says `print("Hello");` inside the curly braces. The Editor wi
       print("Hello");
     }
     ```
-    If the condition is true, it will be run
+    If the condition is true, `Hello` will be printed. If the condition is false, nothing will be printed because the instructions inside the curly braces are skipped over.
+    
+    You can even put a compound conditional (such as `(a > b) || !(b == c)`) in the if statement! As long as it evaluates to a boolean, you can use it in an `if` statement.
+    
+**else**
+
+What if you want to run something if the condition is not true? We can use what's called an `else` statement. This goes after the second curly brace of an `if` statement. It looks something like this:
+
+```if(b == c){
+  print("Hello");
+  }
+  else {
+  print("Goodbye");
+  }```
+    
+Note that an else statement does not use a condition. It always runs if the `if` statement condition is false.
+Test it out and see what you can do with it.
+
+**else if**
+
+What if you want to run another if statement after the first one was not met? You'd use `else if`. It goes where you'd put an `else` statement, but you have to give it a condition.
+For example:
+```if(b == c){
+  print("Hello");
+  }
+  else if(a > b){
+  print("Oh no!");
+  }```
+  
+After the `else if`, you can chain on more `else if` and `else` statements to check multiple conditions, and only one of them will be run!
+```if(b == c){
+  print("Hello");
+  }
+  else if(a > b){
+  print("Oh no!");
+  }
+  else{
+  print("Goodbye")
+  }```
+Experiment with the control flow of `if`, `else`, and `else if` statements to see what complex decisions you can translate into code!
+
+
