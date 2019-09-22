@@ -2,7 +2,8 @@
 
 Last lesson, we mentioned boolean variables. Booleans (in Dart written as bool) are essentially a switch with two values, true and false.
 
-```bool b = true;
+```
+bool b = true;
 bool a = false;
 ```
 
@@ -34,7 +35,8 @@ Repeat this for the other variable (let's name it `b`).
 
 Our Editor should look like this: 
 
-  ```void main(){
+  ```
+  void main(){
     int a = 5;
     int b = 10;
   }
@@ -47,7 +49,8 @@ Insert (a > b) in the print function. The console will calculate whatever is in 
 
 Now, the Editor should look like this: 
 
-  ```void main(){
+  ```
+  void main(){
     int a = 5;
     int b = 10;
     print(a > b);
@@ -81,7 +84,8 @@ Replace the old print statement with `print((a > b) && (b == c));`
 
 The Editor should now read:
 
-  ```void main(){
+  ```
+  void main(){
     int a = 5;
     int b = 10;
     int c = 10;
@@ -101,7 +105,8 @@ Answer: The result should be true. || requires that at least 1 input is true, an
 Now, what is the result if you put `!` before the (b == c)?
 Your Editor should read:
 
-  ```void main(){
+  ```
+  void main(){
     int a = 5;
     int b = 10;
     int c = 10;
@@ -126,7 +131,8 @@ Let's just try it out.
 In the editor, insert a line that containing `if(true) {}`. This is the most basic `if` statement you can write. Your boolean conditional goes in the parenthesis (where it currently says true) and whatever code you want to be executed goes in the curly braces (currently nothing).
 Insert a line that says `print("Hello");` inside the curly braces. The Editor window should now look like:
 
-  ```void main(){
+  ```
+  void main(){
     int a = 5;
     int b = 10;
     int c = 10;
@@ -141,23 +147,25 @@ Insert a line that says `print("Hello");` inside the curly braces. The Editor wi
   
   Run the program. `Hello` will be printed, since the conditional is always true. 
   Try replacing the `true` with a conditional that will evaluate to a boolean, such as `b == c`. In this case, that if statement will read:
-    ```if(b == c) {
+    ```
+    if(b == c) {
       print("Hello");
     }
     ```
     If the condition is true, `Hello` will be printed. If the condition is false, nothing will be printed because the instructions inside the curly braces are skipped over.
     
-    You can even put a compound conditional (such as `(a > b) || !(b == c)`) in the if statement! As long as it evaluates to a boolean, you can use it in an `if` statement.
+You can even put a compound conditional (such as `(a > b) || !(b == c)`) in the if statement! As long as it evaluates to a boolean, you can use it in an `if` statement.
     
 **else**
 
 What if you want to run something if the condition is not true? We can use what's called an `else` statement. This goes after the second curly brace of an `if` statement. It looks something like this:
 
-```if(b == c){
-  print("Hello");
+```
+  if(b == c){
+    print("Hello");
   }
   else {
-  print("Goodbye");
+    print("Goodbye");
   }
   ```
     
@@ -168,23 +176,25 @@ Test it out and see what you can do with it.
 
 What if you want to run another if statement after the first one was not met? You'd use `else if`. It goes where you'd put an `else` statement, but you have to give it a condition.
 For example:
-```if(b == c){
-  print("Hello");
+```
+  if(b == c){
+    print("Hello");
   }
   else if(a > b){
-  print("Oh no!");
+    print("Oh no!");
   }
   ```
   
 After the `else if`, you can chain on more `else if` and `else` statements to check multiple conditions, and only one of them will be run!
-```if(b == c){
-  print("Hello");
+```
+  if(b == c){
+    print("Hello");
   }
   else if(a > b){
-  print("Oh no!");
+    print("Oh no!");
   }
   else{
-  print("Goodbye")
+    print("Goodbye")
   }
   ```
 Experiment with the control flow of `if`, `else`, and `else if` statements to see what complex decisions you can translate into code!
