@@ -103,7 +103,7 @@ Try replacing `&&` with `||`. What should the result be?
 <details>
   <summary>Answer: </summary> 
   <p> 
-    The result should be true. <code>||</code> requires that at least 1 input is true, and that is the case, so `||` will return `true`.
+    The result should be true. <code>||</code> requires that at least 1 input is true. That is the case, so <code>||</code> will return <code>true</code>.
   </p>
 </details>
 
@@ -119,7 +119,12 @@ Your Editor should read:
   }
   ```
   
-Answer: False; The `!` operator inverts `(b == c)`, which is usually `true`. Now, both are `false`, and `||` will return `false`.
+<details>
+  <summary>Answer:</summary>
+  <p>
+    False; The <code>!</code> operator inverts <code>(b == c)</code>, which is usually <code>true</code>. Now, both are <code>false</code>, and <code>||</code> will return <code>false</code>.
+  <p>
+</details>
 
 Now that you've learned about booleans, here comes the fun part!
 
