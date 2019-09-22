@@ -3,7 +3,8 @@
 Last lesson, we mentioned boolean variables. Booleans (in Dart written as bool) are essentially a switch with two values, true and false.
 
 ```bool b = true;
-bool a = false;```
+bool a = false;
+```
 
 We can use special operators to compare two values and receive a bool value in the form of true or false.
 
@@ -36,7 +37,8 @@ Our Editor should look like this:
   ```void main(){
     int a = 5;
     int b = 10;
-  }```
+  }
+  ```
 
 Now, try entering a print() function that tells you if a is greater than b.
 Insert another line before the closing bracket (}) and write print();
@@ -49,7 +51,8 @@ Now, the Editor should look like this:
     int a = 5;
     int b = 10;
     print(a > b);
-  }```
+  }
+  ```
 
 Run your program. What was the output?
 If you wrote it out correctly, you should have gotten `false`. 5 is not greater than 10, so this makes sense.
@@ -83,7 +86,8 @@ The Editor should now read:
     int b = 10;
     int c = 10;
     print((a > b) && (b == c));
-  }```
+  }
+  ```
   
 What do you think the result will be? (Remember that for && to return true, both values must be true.)
 Run the program.
@@ -102,7 +106,8 @@ Your Editor should read:
     int b = 10;
     int c = 10;
     print((a > b) || !(b == c));
-  }```
+  }
+  ```
   
 Answer: False; The `!` operator inverts (b == c), which is usually true. Now, both are false, and || will return false.
 
@@ -129,7 +134,8 @@ Insert a line that says `print("Hello");` inside the curly braces. The Editor wi
     if(true) {
       print("Hello");
     }
-  }```
+  }
+  ```
   
   Note that you don't need a semicolon after the if statement because the curly braces do the semicolon's job. You do, however, need semicolons for any line inside the if statement. 
   
@@ -152,7 +158,8 @@ What if you want to run something if the condition is not true? We can use what'
   }
   else {
   print("Goodbye");
-  }```
+  }
+  ```
     
 Note that an else statement does not use a condition. It always runs if the `if` statement condition is false.
 Test it out and see what you can do with it.
@@ -166,7 +173,8 @@ For example:
   }
   else if(a > b){
   print("Oh no!");
-  }```
+  }
+  ```
   
 After the `else if`, you can chain on more `else if` and `else` statements to check multiple conditions, and only one of them will be run!
 ```if(b == c){
@@ -177,7 +185,8 @@ After the `else if`, you can chain on more `else if` and `else` statements to ch
   }
   else{
   print("Goodbye")
-  }```
+  }
+  ```
 Experiment with the control flow of `if`, `else`, and `else if` statements to see what complex decisions you can translate into code!
 
 
