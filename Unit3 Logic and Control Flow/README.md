@@ -43,7 +43,7 @@ Our Editor should look like this:
   ```
 
 Now, try entering a `print()` function that tells you if a is greater than b.
-Insert another line before the closing curly brace (`}`) and write `print();`
+Insert another line before the closing curly brace `}` and write `print();`
 
 Insert `(a > b)` in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
 
