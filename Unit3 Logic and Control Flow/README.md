@@ -75,7 +75,12 @@ These operators will return a boolean.
 
 Based on these, what would `((a == b) && (a > c))` represent in English?
 
-Answer: Is a equal to b and a greater than c?
+<details>
+  <summary>Answer:</summary>
+  <p>
+    <code>((a == b) && (a > c))</code> would be equivilent to asking "Is a equal to b and a greater than c?".
+  </p>
+</details>
 
 Let's try it out.
 
