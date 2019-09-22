@@ -44,7 +44,7 @@
    At the end of the line, you placed a semicolon - `;`. 
    This tells the computer that the current line of code is over, and to move on to the next line for execution of the program.
    
-   If you hit `Run`, the String `"Hello World"` will display in the Console.
+   If you hit `Run`, the String `"Hello, World!"` will display in the Console.
    
    Try displaying other messages to the Console - Test out the limitations of what you can place inside `print()`
    
@@ -55,19 +55,19 @@
 
 **Python:**
 ```Python
-print("Hello World!")
+print("Hello, World!")
 ```
 **Java:**
 ```Java
 public class ClassName{
   public static void main(){
-    System.out.println("Hello World");
+    System.out.println("Hello, World!");
   }
 }
 ```
 **Dart:**
 ``` dart
 void main(){
-  print("Hello World");
+  print("Hello, World!");
 }
 ```
