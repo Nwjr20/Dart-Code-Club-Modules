@@ -1,6 +1,10 @@
 Module 3: Logic and Control Flow
 
 Last lesson, we mentioned boolean variables. Booleans (in Dart written as bool) are essentially a switch with two values, true and false.
+
+bool b = true;
+bool a = false;
+
 We can use special operators to compare two values and receive a bool value in the form of true or false.
 
 1. Comparison logic
@@ -50,4 +54,18 @@ If you wrote it out correctly, you should have gotten `false`. 5 is not greater 
 
 Try it out with different values and with the 6 different operators listed above. 
 Get a good feel for how these operators work, because we'll be using them a lot!
+
+2. Logic Operators
+
+We've got the comparison operators down, which give us boolean expressions (true or false). But what if we want to see if two boolean expressions are both true? What if we want to see if either one of them is true?
+
+There are operators that do just that, called logic operators. These are:
+  1. && (represents "and"): Checks to see if both of two bools are true. If so, it returns true. Otherwise, it returns false.
+  2. || (represents "or"): Checks to see if at least one of two bools is true. Just like &&, it returns true or false.
+  3. ! (represents "not"): Used to invert a boolean value. Therefore, !true would give you false, and !false would give you true.
+These operators will return a boolean. 
+
+Based on these, what would ((a == b) && (a > c)) represent in English?
+
+Answer: ||Is a equal to b and a greater than c?||
 
