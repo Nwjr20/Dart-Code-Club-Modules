@@ -100,10 +100,10 @@ The console should say `false`. b is equal to c, but a is not greater than b. On
   
 Try replacing `&&` with `||`. What should the result be?
 
-<detail>
+<details>
   <summary>Answer: </summary> 
   The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.
-</detail>
+</details>
 
 Now, what is the result if you put `!` before the `(b == c)`?
 Your Editor should read:
