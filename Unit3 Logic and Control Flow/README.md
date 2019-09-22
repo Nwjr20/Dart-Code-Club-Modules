@@ -1,4 +1,4 @@
-**Module 3: Logic and Control Flow**
+# Module 3: Logic and Control Flow
 
 Last lesson, we mentioned boolean variables. Booleans (in Dart written as bool) are essentially a switch with two values, true and false.
 
@@ -102,7 +102,8 @@ Try replacing `&&` with `||`. What should the result be?
 
 <details>
   <summary>Answer: </summary> 
-  The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.
+  <p>
+  The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.</p>
 </details>
 
 Now, what is the result if you put `!` before the `(b == c)`?
