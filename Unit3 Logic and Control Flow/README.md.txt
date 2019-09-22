@@ -3,9 +3,9 @@ Module 3: Logic and Control Flow
 Last lesson, we mentioned boolean variables. Booleans (in Dart written as bool) are essentially a switch with two values, true and false.
 We can use special operators to compare two values and receive a bool value in the form of true or false.
 
-1. Logic
+1. Comparison logic
 
-Logic is the comparison of two values to see how they relate (whether or not one is bigger, smaller, the same, etc.)
+Logic is the comparison of two values to see how they relate (whether or not one is bigger, smaller, the same, etc).
 Here's a list of the main comparison operators. You've seen many of these in math class before.
 
 1. Greater than > (ex. A > B)
@@ -24,5 +24,30 @@ A few things to remember about logic operators.
 
 Open up DartPad (https://dartpad.dartlang.org/) and let's try some comparison operators.
 
-In the main() function, define 2 variables, making one equal to 5 and the other 10. We can make our first value by entering int a = 5; 
-Repeat this for 2
+In the main() function, define 2 variables, making one equal to 5 and the other 10. We can make our first value by entering `int a = 5;`
+Repeat this for the other variable (the name doesn't matter).
+
+Our Editor should look like this: 
+  void main(){
+    int a = 5;
+    int b = 10;
+  }
+
+Now, try entering a print() function that tells you if a is greater than b.
+Insert another line before the closing bracket (}) and write print();
+
+Insert (a > b) in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
+
+Now, the Editor should look like this: 
+  void main(){
+    int a = 5;
+    int b = 10;
+    print(a > b);
+  }
+
+Run your program. What was the output?
+If you wrote it out correctly, you should have gotten `false`. 5 is not greater than 10, so this makes sense.
+
+Try it out with different values and with the 6 different operators listed above. 
+Get a good feel for how these operators work, because we'll be using them a lot!
+
