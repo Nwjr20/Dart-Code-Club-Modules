@@ -14,23 +14,23 @@ We can use special operators to compare two values and receive a bool value in t
 Logic is the comparison of two values to see how they relate (whether or not one is bigger, smaller, the same, etc).
 Here's a list of the main comparison operators. You've seen many of these in math class before.
 
-1. Greater than > (ex. A > B)
-2. Less than < (ex. A < B)
-3. Greater than or equal to >= (ex. A >= B)
-4. Less than or equal to <= (ex. A <= B)
-5. Equal to == (ex. A == B)
-6. Not equal to != (ex. A != B)
+1. Greater than `>` (ex. `A > B`)
+2. Less than `<` (ex. `A < B`)
+3. Greater than or equal to `>=` (ex. `A >= B`)
+4. Less than or equal to `<=` (ex. `A <= B`)
+5. Equal to `==` (ex. `A == B`)
+6. Not equal to `!=` (ex. `A != B`)
 
 A few things to remember about logic operators.
   - For any operator with equal to as part of it, the equals sign comes SECOND.
   - == is not the same as =. The double equals is for comparison and the single equals sets the variable. Two very different things!
-  - Any logic operator will give you a boolean value as a result (ex. (10 > 5) would give you true).
-  - You can only compare two values at a time. For example, (A > B > C) would give you an error. 
-    A > B resolves to a true/false, and you can't compare a word to a number.)
+  - Any logic operator will give you a boolean value as a result (ex. (`10 > 5`) would give you `true`).
+  - You can only compare two values at a time. For example, (`A > B > C`) would give you an error. 
+    `A > B` resolves to a true/false, and you can't compare a word to a number.)
 
 Open up DartPad (https://dartpad.dartlang.org/) and let's try some comparison operators.
 
-In the 'main()' function, define 2 variables, making one equal to 5 and the other 10. We can make our first value by entering `int a = 5;`
+In the `main()` function, define 2 variables, making one equal to 5 and the other 10. We can make our first value by entering `int a = 5;`
 Repeat this for the other variable (let's name it `b`).
 
 Our Editor should look like this: 
@@ -42,10 +42,10 @@ Our Editor should look like this:
   }
   ```
 
-Now, try entering a 'print()' function that tells you if a is greater than b.
-Insert another line before the closing bracket (}) and write print();
+Now, try entering a `print()` function that tells you if a is greater than b.
+Insert another line before the closing curly brace (`}`) and write `print();`
 
-Insert '(a > b)' in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
+Insert `(a > b)` in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
 
 Now, the Editor should look like this: 
 
@@ -68,9 +68,9 @@ Get a good feel for how these operators work, because we'll be using them a lot!
 We've got the comparison operators down, which give us boolean expressions (true or false). But what if we want to see if two boolean expressions are both true? What if we want to see if either one of them is true?
 
 There are operators that do just that, called logic operators. These are:
-  1. && (represents "and"): Checks to see if both of two bools are true. If so, it returns true. Otherwise, it returns false.
-  2. || (represents "or"): Checks to see if at least one of two bools is true. Just like &&, it returns true or false.
-  3. ! (represents "not"): Used to invert a boolean value. Therefore, !true would give you false, and !false would give you true.
+  1. `&&` (represents "and"): Checks to see if both of two bools are true. If so, it returns `true`. Otherwise, it returns `false`.
+  2. `||` (represents "or"): Checks to see if at least one of two bools is true. Just like `&&`, it returns true or `false`.
+  3. `!` (represents "not"): Used to invert a boolean value. Therefore, `!true` would give you `false`, and `!false` would give you `true`.
 These operators will return a boolean. 
 
 Based on these, what would `((a == b) && (a > c))` represent in English?
@@ -93,16 +93,16 @@ The Editor should now read:
   }
   ```
   
-What do you think the result will be? (Remember that for && to return true, both values must be true.)
+What do you think the result will be? (Remember that for `&&` to return true, both values must be true.)
 Run the program.
    
-The console should say `false`. b is equal to c, but a is not greater than b. Only one of the inputs is true, so && will return false.
+The console should say `false`. b is equal to c, but a is not greater than b. Only one of the inputs is true, so `&&` will return false.
   
-Try replacing && with ||. What should the result be?
+Try replacing `&&` with `||`. What should the result be?
 
-Answer: The result should be true. || requires that at least 1 input is true, and that is the case, so || will return true.
+Answer: The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.
 
-Now, what is the result if you put `!` before the (b == c)?
+Now, what is the result if you put `!` before the `(b == c)`?
 Your Editor should read:
 
   ```
@@ -114,7 +114,7 @@ Your Editor should read:
   }
   ```
   
-Answer: False; The `!` operator inverts (b == c), which is usually true. Now, both are false, and || will return false.
+Answer: False; The `!` operator inverts `(b == c)`, which is usually `true`. Now, both are `false`, and `||` will return `false`.
 
 Now that you've learned about booleans, here comes the fun part!
 
