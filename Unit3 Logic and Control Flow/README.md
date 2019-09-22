@@ -30,7 +30,7 @@ A few things to remember about logic operators.
 
 Open up DartPad (https://dartpad.dartlang.org/) and let's try some comparison operators.
 
-In the main() function, define 2 variables, making one equal to 5 and the other 10. We can make our first value by entering `int a = 5;`
+In the 'main()' function, define 2 variables, making one equal to 5 and the other 10. We can make our first value by entering `int a = 5;`
 Repeat this for the other variable (let's name it `b`).
 
 Our Editor should look like this: 
@@ -42,10 +42,10 @@ Our Editor should look like this:
   }
   ```
 
-Now, try entering a print() function that tells you if a is greater than b.
+Now, try entering a 'print()' function that tells you if a is greater than b.
 Insert another line before the closing bracket (}) and write print();
 
-Insert (a > b) in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
+Insert '(a > b)' in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
 
 Now, the Editor should look like this: 
 
