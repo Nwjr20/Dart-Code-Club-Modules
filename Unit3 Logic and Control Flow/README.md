@@ -102,8 +102,9 @@ Try replacing `&&` with `||`. What should the result be?
 
 <details>
   <summary>Answer: </summary> 
-  <p>
-  The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.</p>
+  <p> 
+  The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.
+  </p>
 </details>
 
 Now, what is the result if you put `!` before the `(b == c)`?
