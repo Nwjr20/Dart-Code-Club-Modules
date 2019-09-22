@@ -22,7 +22,7 @@ Here's a list of the main comparison operators. You've seen many of these in mat
 6. `!=` - Not equal to (ex. `A != B`)
 
 A few things to remember about logic operators.
-  - For any operator with equal to as part of it, the equals sign comes SECOND.
+  - For any operator with an equals sign, the equals sign comes SECOND.
   - == is not the same as =. The double equals is for comparison and the single equals sets the variable. Two very different things!
   - Any logic operator will give you a boolean value as a result (ex. (`10 > 5`) would give you `true`).
   - You can only compare two values at a time. For example, (`A > B > C`) would give you an error. 
