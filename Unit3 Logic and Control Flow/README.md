@@ -82,6 +82,9 @@ Based on these, what would `((a == b) && (a > c))` represent in English?
   </p>
 </details>
 
+
+
+
 Let's try it out.
 
 In your Editor, add another variable that equals 10 (call it c). Let's use these operators!
