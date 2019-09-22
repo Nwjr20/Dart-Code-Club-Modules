@@ -103,7 +103,7 @@ Try replacing `&&` with `||`. What should the result be?
 <details>
   <summary>Answer: </summary> 
   <p> 
-  The result should be true. `||` requires that at least 1 input is true, and that is the case, so `||` will return `true`.
+    The result should be true. <code>||</code> requires that at least 1 input is true, and that is the case, so `||` will return `true`.
   </p>
 </details>
 
