@@ -32,6 +32,7 @@ In the main() function, define 2 variables, making one equal to 5 and the other 
 Repeat this for the other variable (let's name it `b`).
 
 Our Editor should look like this: 
+
   ```void main(){
     int a = 5;
     int b = 10;
@@ -43,6 +44,7 @@ Insert another line before the closing bracket (}) and write print();
 Insert (a > b) in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
 
 Now, the Editor should look like this: 
+
   ```void main(){
     int a = 5;
     int b = 10;
@@ -75,6 +77,7 @@ In your Editor, add another variable that equals 10 (call it c). Let's use these
 Replace the old print statement with `print((a > b) && (b == c));`
 
 The Editor should now read:
+
   ```void main(){
     int a = 5;
     int b = 10;
@@ -93,6 +96,7 @@ Answer: The result should be true. || requires that at least 1 input is true, an
 
 Now, what is the result if you put `!` before the (b == c)?
 Your Editor should read:
+
   ```void main(){
     int a = 5;
     int b = 10;
@@ -108,4 +112,29 @@ Now that you've learned about booleans, here comes the fun part!
 
 You may have been wondering why we would use booleans in the first place. The answer lies within the `if` statement.
 
-The `if` statement uses a boolean to check whether or not it should run 
+The `if` statement uses a boolean to check whether or not it should perform an action.
+
+Let's just try it out.
+
+In the editor, insert a line that containing `if(true) {}`. This is the most basic `if` statement you can write. Your boolean conditional goes in the parenthesis (where it currently says true) and whatever code you want to be executed goes in the curly braces (currently nothing).
+Insert a line that says `print("Hello");` inside the curly braces. The Editor window should now look like:
+
+  ```void main(){
+    int a = 5;
+    int b = 10;
+    int c = 10;
+    print((a > b) || !(b == c));
+    if(true) {
+      print("Hello");
+    }
+  }```
+  
+  Note that you don't need a semicolon after the if statement because the curly braces do the semicolon's job. You do, however, need semicolons for any line inside the if statement. 
+  
+  Run the program. `Hello` will be printed, since the conditional is always true. 
+  Try replacing the `true` with a conditional that will evaluate to a boolean, such as `b == c`. In this case, that if statement will read:
+    ```if(b == c) {
+      print("Hello");
+    }
+    ```
+    If the condition is true, it will be run
