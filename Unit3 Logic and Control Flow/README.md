@@ -165,7 +165,7 @@ The `if` statement uses a boolean to check whether or not it should perform an a
 
 Let's just try it out.
 
-In the editor, insert a line that containing `if(true) {}`. This is the most basic `if` statement you can write. Your boolean conditional goes in the parenthesis (where it currently says true) and whatever code you want to be executed goes in the curly braces (currently nothing).
+In the editor, insert a line that containing `if(true) {}`. This is the most basic `if` statement. Your boolean conditional goes in the parenthesis (where it currently says true) and whatever code you want to be executed goes in the curly braces (currently nothing).
 Insert a line that says `print("Hello");` inside the curly braces. The Editor window should now look like:
 
   ```dart
@@ -183,13 +183,12 @@ Insert a line that says `print("Hello");` inside the curly braces. The Editor wi
   Note that you don't need a semicolon after the if statement because the curly braces do the semicolon's job. You do, however, need semicolons for any line inside the if statement. 
   
   Run the program. `Hello` will be printed, since the conditional is always true. 
-  Try replacing the `true` with a conditional that will evaluate to a boolean, such as `b == c`. In this case, that if statement will read:
-  
- ```dart
+  Try replacing the `true` with a conditional that will evaluate to a boolean, such as `b == c`. In this case, that `if` statement will read:
+
     if(b == c) {
       print("Hello");
     }
- ```
+    
     If the condition is true, `Hello` will be printed. If the condition is false, nothing will be printed because the instructions inside the curly braces are skipped over.
     
 You can even put a compound conditional (such as `(a > b) || !(b == c)`) in the if statement! As long as it evaluates to a boolean, you can use it in an `if` statement.
