@@ -27,11 +27,16 @@ A few things to remember about logic operators.
   - Any logic operator will give you a boolean value as a result (ex. (`10 > 5`) would give you `true`).
   - You can only compare two values at a time. For example, (`A > B > C`) would give you an error. 
     `A > B` resolves to a true/false, and you can't compare a word to a number.)
+    
+    
+    
 
 Open up DartPad (https://dartpad.dartlang.org/) and let's try some comparison operators.
 
+
 In the `main()` function, define 2 variables, making one equal to 5 and the other 10. We can make our first value by entering `int a = 5;`
 Repeat this for the other variable (let's name it `b`).
+
 
 Our Editor should look like this: 
 
@@ -47,6 +52,7 @@ Insert another line before the closing curly brace `}` and write `print();`
 
 Insert `(a > b)` in the print function. The console will calculate whatever is in the parenthesis first, so it will check to see if a is greater than b and print the result.
 
+
 Now, the Editor should look like this: 
 
   ```dart
@@ -59,6 +65,8 @@ Now, the Editor should look like this:
 
 Run your program. What was the output?
 If you wrote it out correctly, you should have gotten `false`. 5 is not greater than 10, so this makes sense.
+
+
 
 Try it out with different values and with the 6 different operators listed above. 
 Get a good feel for how these operators work, because we'll be using them a lot!
@@ -73,7 +81,9 @@ There are operators that do just that, called logic operators. These are:
   3. `!` (represents "not"): Used to invert a boolean value. Therefore, `!true` would give you `false`, and `!false` would give you `true`.
 These operators will return a boolean. 
 
-Based on these, what would `((a == b) && (a > c))` represent in English?
+
+
+Based on these rules, what would `((a == b) && (a > c))` represent in English?
 
 <details>
   <summary>Answer:</summary>
@@ -104,7 +114,11 @@ The Editor should now read:
 What do you think the result will be? (Remember that for `&&` to return true, both values must be true.)
 Run the program.
    
+   
 The console should say `false`. b is equal to c, but a is not greater than b. Only one of the inputs is true, so `&&` will return false.
+  
+  
+  
   
 Try replacing `&&` with `||`. What should the result be?
 
@@ -114,6 +128,8 @@ Try replacing `&&` with `||`. What should the result be?
     The result should be true. <code>||</code> requires that at least 1 input is true. That is the case, so <code>||</code> will return <code>true</code>.
   </p>
 </details>
+
+
 
 Now, what is the result if you put `!` before the `(b == c)`?
 Your Editor should read:
@@ -134,7 +150,10 @@ Your Editor should read:
   <p>
 </details>
 
+
+
 Now that you've learned about booleans, here comes the fun part!
+
 
 **3. Control Flow**
 
