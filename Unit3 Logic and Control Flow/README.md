@@ -185,12 +185,13 @@ Insert a line that says `print("Hello");` inside the curly braces. The Editor wi
   Run the program. `Hello` will be printed, since the conditional is always true. 
   Try replacing the `true` with a conditional that will evaluate to a boolean, such as `b == c`. In this case, that `if` statement will read:
 
+  ```dart
     if(b == c) {
       print("Hello");
     }
-    
-    If the condition is true, `Hello` will be printed. If the condition is false, nothing will be printed because the instructions inside the curly braces are skipped over.
-    
+```
+If the condition is true, `Hello` will be printed. If the condition is false, nothing will be printed because the instructions inside the curly braces are skipped over.
+   
 You can even put a compound conditional (such as `(a > b) || !(b == c)`) in the if statement! As long as it evaluates to a boolean, you can use it in an `if` statement.
     
 **else**
