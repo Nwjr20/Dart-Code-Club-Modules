@@ -19,7 +19,8 @@ The syntax of declaring a function is as follows...
 Lets take a look at some of this in action...
 
 
-```void main(){
+```
+void main(){
 print("Hello world");}
 ```
 
