@@ -12,16 +12,22 @@ Functions are pieces of code that have an input and an output. Today, we will be
 
 The syntax of declaring a function is as follows...
 
-`return-type functioname(arugments){return data}`
+```dart
+return-type functionName(arguments) {
+  //do stuff
+  return data;
+}
+```
 
 
 
 Lets take a look at some of this in action...
 
 
-```
-void main(){
-print("Hello world");}
+```dart
+void main() {
+  print("Hello world");
+}
 ```
 
 
@@ -31,7 +37,11 @@ As seen above, this is a main method which does not return anything, we know thi
 
 Another example...
 
-```String say_hi(String name){return "Hi $name";}```
+```
+String sayHi(String name) {
+  return "Hi $name";
+}
+```
 
 The code above takes a parameter name, and returns a string that greets the name that was put in as a parameter. Notice that the return type and stated return type in the function definition is the same! This means that our code works and will compile correctly!
 
@@ -42,7 +52,11 @@ The code above takes a parameter name, and returns a string that greets the name
 Before, we took a look at what works when using function return types... now lets take a look at what will break our code!
 
 
-int say_hi(int age){return "You are $age years old";}
+```dart
+int sayHi(int age){
+  return "You are $age years old";
+}
+```
 
 This code will not work because the return type does not match what was stated in the function definition.
 
@@ -58,7 +72,8 @@ Now, lets make a fun project to play heads or tails an insane amount of times!
 Important notes:
 
 
-
+```dart
 var list = ['a','b','c','d','e'];
 
-var randomItem = (list..shuffle()).first;
+var randomItem = (list.shuffle()).first;
+```
