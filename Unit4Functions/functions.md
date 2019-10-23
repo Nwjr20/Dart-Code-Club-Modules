@@ -75,5 +75,6 @@ Important notes:
 ```dart
 var list = ['a','b','c','d','e'];
 
-var randomItem = (list.shuffle()).first;
+list.shuffle();
+var randomItem = list.first;
 ```
