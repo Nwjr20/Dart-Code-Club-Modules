@@ -37,7 +37,7 @@ As seen above, this is a main method which does not return anything, we know thi
 
 Another example...
 
-```
+```dart
 String sayHi(String name) {
   return "Hi $name";
 }
