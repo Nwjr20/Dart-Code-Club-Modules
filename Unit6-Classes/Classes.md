@@ -1,5 +1,5 @@
-#Classes  
-##What are Classes and Objects?
+# Classes  
+## What are Classes and Objects?
 
 **Classes** - A structure to hold a specific type of data, can be as simple or as complex as needed  
 **Objects** - Implementations/Instances of a class - the actual data in the computer's memory  
@@ -9,7 +9,7 @@ Dart is an object-oriented language, meaning almost everything in the language i
 - int is a very simple object that just holds a number value
 - String is a more complex object that holds a list of characters
 
-##How to Make a Class  
+## How to Make a Class  
 ```dart
 class Car{
   String _make;
