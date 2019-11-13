@@ -3,7 +3,7 @@
 
 **Classes** - A structure to hold a specific type of data, can be as simple or as complex as needed  
 **Objects** - Implementations/Instances of a class - the actual data in the computer's memory  
-Classes can be thought of as blueprints, and Objects as the buildings that they describe how to make  
+Classes can be thought of as blueprints, and Objects as the buildings that they describe how to make (Cardboard box analogy)  
 Dart is an object-oriented language, meaning almost everything in the language is an object derived from a class  
 
 - int is a very simple object that just holds a number value
