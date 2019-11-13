@@ -44,15 +44,28 @@ class Car{
 }
 
 void main() {
-  Car car = new Car("Honda", "Accord", 2007);
+  Car myCar = new Car("Honda", "Accord", 2007);
   print(car.getYear());
   car.setYear(2019);
   print(car.getYear());
   car.drive();
 }
 ```
-There is a lot going on here, so we'll break it down  
+There is a lot going on here, so we'll break it down piece by piece:  
+  - The first line `Class Car {` is a class definition, which just states the name of the class being created
+  - The 3 variables at the top are *attributes* of the class - variables that store data that we *know* about the object. These variable names start with an _ character, meaning they are private and only accessible from within the class.
+  - The line `Car(this._make, this._model, this._year);` is a *constructor* - this is a method that is called when an object is created, and allows the object to be created with specific values placed into its attributes.
+  - The next 6 methods are *getters* and *setters* - these allow access to and mutation of the data inside the class's private attributes (encapsulation)
+  - The last method, `void drive()` is just a method that is a member of the class. These methods are usually something that the objects of the class do, in this simple case calling `drive()` on an object of type `Car` prints the word "Vroom"
+  - The line in the `main()` method `Car myCar = new Car("Honda", "Accord", 2007);` creates an *Object* of type Car. This object is created like any other variable, with a type, name, and value.
+  - The methods defined in the Car class can then be called on the object to access and change the data, or just print something to the screen.
+  
+  
+## Activities
+
+Pick something in the room and make a class describing it, then create a few objects of that type in the `main()` method  
+Include private attributes, a constructor, getters/setters, and other methods
 
 
 
-Inheritance - subclasses, superclasses, overriding  
+
